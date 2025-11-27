@@ -223,7 +223,7 @@ footer {
   position: fixed;
   width: 100%;
   border-radius: 0.5rem;
-  box-shadow: 0.125rem 0.3rem rgba(0, 0, 0, .075);
+  box-shadow: 0.125rem 0.3rem rgba(0, 0, 0, 0.075);
 }
 
 .navBarBoxOne figure img {
@@ -599,6 +599,16 @@ input:focus {
 }
 
 /* Contact code */
+
+/* Contact code */
+
+/* Contact Icons code */
+
+.contactIconsContainer {
+  max-width:1110px ;
+  margin: auto;
+}
+
 .contactIconsBodyOne {
   margin-bottom: 4rem;
 }
@@ -645,7 +655,6 @@ input:focus {
 
 /* Contact Icons code */
 
-/* Contact Icons code */
 /* :::FOOTER Code Ends here::: */
 
 
@@ -670,7 +679,7 @@ input:focus {
   .navBarBlockTwo .hamburgerIcon {
     display: block;
     position: absolute;
-    top: 4rem;
+    top: 3rem;
     right: 4rem;
     cursor: pointer;
   }
@@ -721,16 +730,26 @@ input:focus {
   /* Our Menu code */
 
   /* Facility code */
+  .facility {
+    margin-top: 1rem;
+  }
 
   /* Facility code */
 
   /* Popular code */
+  .popularBodyTwo {
+    padding: 0rem 4rem;
+  }
+
+  /* Popular code */
+
+  /* Gallery code */
 
   .galleryBodyTwo {
     padding: 1.8rem 1.5rem;
   }
 
-  /* Popular code */
+  /* Gallery code */
 
   /* Team code */
   .teamBodyTwo {
@@ -751,6 +770,9 @@ input:focus {
 
   .contactIconsBox {
     text-align: center;
+  }
+  .contactIconsBoxes i{
+    margin-top: 2.5rem;
   }
 
   /* Contact Icons code */
