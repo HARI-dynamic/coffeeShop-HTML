@@ -454,6 +454,9 @@ button:hover {
 /* Popular code */
 
 /* Gallery code */
+.gallery{
+  padding: 1rem 0rem;
+}
 .galleryContainer {
   max-width: 1100px;
   margin: auto;
@@ -485,7 +488,7 @@ button:hover {
 
 /* Team code */
 .team {
-  padding: 0rem 0rem;
+  padding: 1.5rem 0rem;
 }
 
 .teamContainer {
